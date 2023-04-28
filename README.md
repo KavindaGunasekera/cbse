@@ -1,4 +1,4 @@
-# This a node.js application based on component based software engineering concept
+# This is a node.js application based on component based software engineering concept
 
 ### Step 1 :- Since this a node.js application first you need to install node.js in your local pc. https://nodejs.org/
 
