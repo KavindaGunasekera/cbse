@@ -5,7 +5,6 @@ const component = require('./component');
 
 const app = express();
 
-// Configure middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Define routes
@@ -15,8 +14,6 @@ app.get("/", (req, res) => {
 
 app.use(express.json());
 app.use('/api', route);
-// app.get('/api/getEmployees', employeeController.getEmployees);
-// app.post('/users', userController.addUser);
 
 // Start the server
 app.listen(3000, () => {

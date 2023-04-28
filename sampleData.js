@@ -85,6 +85,7 @@ let transaction1 = {
 
 }
 
+if (component.components.person.enabled) {
 insertEmployees(employee1)
     .then((result) => {
         console.log(result);
@@ -101,7 +102,9 @@ insertEmployees(employee2)
         console.error(err);
     });
 
+}
 
+if (component.components.payroll.enabled) {
 insertTransactions(transaction1)
     .then((result) => {
         console.log(result);
@@ -109,6 +112,7 @@ insertTransactions(transaction1)
     .catch((err) => {
         console.error(err);
     });
+}
 
 connection.end((err) => {
         if (err) throw err;

@@ -14,7 +14,7 @@
 ###    "password": "admin",
 ###    "database": "cbse"
 
-### Step 5 :- Enable or Disable components(person, payroll) in component.js file according your requirment. Default value "enable": true
+### Step 5 :- Enable or Disable components(person, payroll) in component.js file according to your requirement. Default value "enable": true
 
 ### Step 6 :- Execute "node database.js" command to create database tables according to enabled components.
 
