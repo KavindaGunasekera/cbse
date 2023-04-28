@@ -1,16 +1,7 @@
-// const mysql = require('mysql2');
 const component = require('./component');
 const connection = require('./database_config').connection;
 const employee = require('./components/person/database/employee');
 const payrollTransaction = require('./components/payroll/database/payrollTransaction');
-
-// create a connection to the database
-// const connection = mysql.createConnection({
-//   host: databaseConfig.database.host,
-//   user: databaseConfig.database.user,
-//   password: databaseConfig.database.password,
-//   database: databaseConfig.database.database,
-// });
 
 // connect to the database
 connection.connect((err) => {
