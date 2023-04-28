@@ -1,0 +1,1 @@
+module.exports.getPayrollTransaction = `SELECT * FROM PAYROLL_TRANSACTION`;
